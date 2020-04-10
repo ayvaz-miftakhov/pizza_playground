@@ -1,0 +1,51 @@
+{
+  "layers": [
+    {
+      "name": "Organization",
+      "elements": [
+        "Inventory management",
+        "Food preparation",
+        "Kitchen",
+        "Cashiers",
+        "Order registration at the restaurant service counter",
+        "Packing orders",
+        "Delivery service",
+        "Order delivery",
+        "Manager",
+        "Inventory management",
+        "Scheduling shifts",
+        "Order management",
+        "Quality control",
+        "HR"
+      ]
+    },
+    {
+      "name": "Strategy",
+      "elements": [
+        "Price analytics and monitoring",
+        "Contracting support in CRM",
+        "Subscription management via website",
+        "Subscription management via app",
+        "Cross-pizzeria planning algorithms in Dodo IS",
+        "Defect rates reduction",
+        "Efficient supply for non-key (for pizzeria) food",
+        "Cross-pizzeria food preparation planning",
+        "Easy contract development and management",
+        "Stable high quality",
+        "Wider selection of food",
+        "Flexibility",
+        "Cost savings",
+        "Low transaction costs",
+        "Satisfaction of business clients",
+        "More subscription contracts with business clients",
+        "Revenue increase",
+        "Food preparation",
+        "Procurement",
+        "Production planning",
+        "Sales",
+        "Marketing",
+        "Effective discount policy for lunch subscriptions"
+      ]
+    }
+  ]
+}

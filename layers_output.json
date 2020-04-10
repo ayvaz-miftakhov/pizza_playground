@@ -1,0 +1,160 @@
+{
+  "layers": [
+    {
+      "name": "Organization",
+      "id": 173,
+      "elements": [
+        {
+          "id": 14,
+          "name": "HR"
+        },
+        {
+          "id": 32,
+          "name": "Quality control"
+        },
+        {
+          "id": 23,
+          "name": "Order management"
+        },
+        {
+          "id": 34,
+          "name": "Scheduling shifts"
+        },
+        {
+          "id": 6,
+          "name": "Manager"
+        },
+        {
+          "id": 22,
+          "name": "Order delivery"
+        },
+        {
+          "id": 4,
+          "name": "Delivery service"
+        },
+        {
+          "id": 27,
+          "name": "Packing orders"
+        },
+        {
+          "id": 24,
+          "name": "Order registration at the restaurant service counter"
+        },
+        {
+          "id": 0,
+          "name": "Cashiers"
+        },
+        {
+          "id": 5,
+          "name": "Kitchen"
+        },
+        {
+          "id": 13,
+          "name": "Food preparation"
+        },
+        {
+          "id": 17,
+          "name": "Inventory management"
+        }
+      ]
+    },
+    {
+      "name": "Strategy",
+      "id": 193,
+      "elements": [
+        {
+          "id": 111,
+          "name": "Effective discount policy for lunch subscriptions"
+        },
+        {
+          "id": 50,
+          "name": "Marketing"
+        },
+        {
+          "id": 33,
+          "name": "Sales"
+        },
+        {
+          "id": 54,
+          "name": "Production planning"
+        },
+        {
+          "id": 31,
+          "name": "Procurement"
+        },
+        {
+          "id": 13,
+          "name": "Food preparation"
+        },
+        {
+          "id": 117,
+          "name": "Revenue increase"
+        },
+        {
+          "id": 115,
+          "name": "More subscription contracts with business clients"
+        },
+        {
+          "id": 118,
+          "name": "Satisfaction of business clients"
+        },
+        {
+          "id": 114,
+          "name": "Low transaction costs"
+        },
+        {
+          "id": 106,
+          "name": "Cost savings"
+        },
+        {
+          "id": 113,
+          "name": "Flexibility"
+        },
+        {
+          "id": 122,
+          "name": "Wider selection of food"
+        },
+        {
+          "id": 119,
+          "name": "Stable high quality"
+        },
+        {
+          "id": 110,
+          "name": "Easy contract development and management"
+        },
+        {
+          "id": 107,
+          "name": "Cross-pizzeria food preparation planning"
+        },
+        {
+          "id": 112,
+          "name": "Efficient supply for non-key (for pizzeria) food"
+        },
+        {
+          "id": 109,
+          "name": "Defect rates reduction"
+        },
+        {
+          "id": 108,
+          "name": "Cross-pizzeria planning algorithms in Dodo IS"
+        },
+        {
+          "id": 120,
+          "name": "Subscription management via app"
+        },
+        {
+          "id": 121,
+          "name": "Subscription management via website"
+        },
+        {
+          "id": 105,
+          "name": "Contracting support in CRM"
+        },
+        {
+          "id": 116,
+          "name": "Price analytics and monitoring"
+        }
+      ]
+    }
+  ]
+}
