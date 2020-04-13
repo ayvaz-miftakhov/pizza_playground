@@ -6,55 +6,122 @@
       "elements": [
         {
           "id": 14,
-          "name": "HR"
+          "name": "HR",
+          "relations": []
         },
         {
           "id": 32,
-          "name": "Quality control"
+          "name": "Quality control",
+          "relations": []
         },
         {
           "id": 23,
-          "name": "Order management"
+          "name": "Order management",
+          "relations": []
         },
         {
           "id": 34,
-          "name": "Scheduling shifts"
+          "name": "Scheduling shifts",
+          "relations": []
         },
         {
           "id": 6,
-          "name": "Manager"
+          "name": "Manager",
+          "relations": [
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 14,
+              "name": "HR"
+            },
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 32,
+              "name": "Quality control"
+            },
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 23,
+              "name": "Order management"
+            },
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 34,
+              "name": "Scheduling shifts"
+            },
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 17,
+              "name": "Inventory management"
+            }
+          ]
         },
         {
           "id": 22,
-          "name": "Order delivery"
+          "name": "Order delivery",
+          "relations": []
         },
         {
           "id": 4,
-          "name": "Delivery service"
+          "name": "Delivery service",
+          "relations": [
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 22,
+              "name": "Order delivery"
+            }
+          ]
         },
         {
           "id": 27,
-          "name": "Packing orders"
+          "name": "Packing orders",
+          "relations": []
         },
         {
           "id": 24,
-          "name": "Order registration at the restaurant service counter"
+          "name": "Order registration at the restaurant service counter",
+          "relations": []
         },
         {
           "id": 0,
-          "name": "Cashiers"
+          "name": "Cashiers",
+          "relations": [
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 27,
+              "name": "Packing orders"
+            },
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 24,
+              "name": "Order registration at the restaurant service counter"
+            }
+          ]
         },
         {
           "id": 5,
-          "name": "Kitchen"
+          "name": "Kitchen",
+          "relations": [
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 17,
+              "name": "Inventory management"
+            },
+            {
+              "rel_type": "AssignmentRelationship",
+              "id": 13,
+              "name": "Food preparation"
+            }
+          ]
         },
         {
           "id": 13,
-          "name": "Food preparation"
+          "name": "Food preparation",
+          "relations": []
         },
         {
           "id": 17,
-          "name": "Inventory management"
+          "name": "Inventory management",
+          "relations": []
         }
       ]
     },
@@ -64,95 +131,254 @@
       "elements": [
         {
           "id": 111,
-          "name": "Effective discount policy for lunch subscriptions"
+          "name": "Effective discount policy for lunch subscriptions",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 106,
+              "name": "Cost savings"
+            }
+          ]
         },
         {
           "id": 50,
-          "name": "Marketing"
+          "name": "Marketing",
+          "relations": [
+            {
+              "rel_type": "RealizationRelationship",
+              "id": 111,
+              "name": "Effective discount policy for lunch subscriptions"
+            }
+          ]
         },
         {
           "id": 33,
-          "name": "Sales"
+          "name": "Sales",
+          "relations": [
+            {
+              "rel_type": "RealizationRelationship",
+              "id": 110,
+              "name": "Easy contract development and management"
+            }
+          ]
         },
         {
           "id": 54,
-          "name": "Production planning"
+          "name": "Production planning",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 113,
+              "name": "Flexibility"
+            },
+            {
+              "rel_type": "RealizationRelationship",
+              "id": 107,
+              "name": "Cross-pizzeria food preparation planning"
+            }
+          ]
         },
         {
           "id": 31,
-          "name": "Procurement"
+          "name": "Procurement",
+          "relations": [
+            {
+              "rel_type": "RealizationRelationship",
+              "id": 112,
+              "name": "Efficient supply for non-key (for pizzeria) food"
+            }
+          ]
         },
         {
           "id": 13,
-          "name": "Food preparation"
+          "name": "Food preparation",
+          "relations": [
+            {
+              "rel_type": "RealizationRelationship",
+              "id": 109,
+              "name": "Defect rates reduction"
+            }
+          ]
         },
         {
           "id": 117,
-          "name": "Revenue increase"
+          "name": "Revenue increase",
+          "relations": []
         },
         {
           "id": 115,
-          "name": "More subscription contracts with business clients"
+          "name": "More subscription contracts with business clients",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 117,
+              "name": "Revenue increase"
+            }
+          ]
         },
         {
           "id": 118,
-          "name": "Satisfaction of business clients"
+          "name": "Satisfaction of business clients",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 115,
+              "name": "More subscription contracts with business clients"
+            }
+          ]
         },
         {
           "id": 114,
-          "name": "Low transaction costs"
+          "name": "Low transaction costs",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 118,
+              "name": "Satisfaction of business clients"
+            }
+          ]
         },
         {
           "id": 106,
-          "name": "Cost savings"
+          "name": "Cost savings",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 118,
+              "name": "Satisfaction of business clients"
+            }
+          ]
         },
         {
           "id": 113,
-          "name": "Flexibility"
+          "name": "Flexibility",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 118,
+              "name": "Satisfaction of business clients"
+            }
+          ]
         },
         {
           "id": 122,
-          "name": "Wider selection of food"
+          "name": "Wider selection of food",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 118,
+              "name": "Satisfaction of business clients"
+            }
+          ]
         },
         {
           "id": 119,
-          "name": "Stable high quality"
+          "name": "Stable high quality",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 118,
+              "name": "Satisfaction of business clients"
+            }
+          ]
         },
         {
           "id": 110,
-          "name": "Easy contract development and management"
+          "name": "Easy contract development and management",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 113,
+              "name": "Flexibility"
+            },
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 114,
+              "name": "Low transaction costs"
+            }
+          ]
         },
         {
           "id": 107,
-          "name": "Cross-pizzeria food preparation planning"
+          "name": "Cross-pizzeria food preparation planning",
+          "relations": []
         },
         {
           "id": 112,
-          "name": "Efficient supply for non-key (for pizzeria) food"
+          "name": "Efficient supply for non-key (for pizzeria) food",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 122,
+              "name": "Wider selection of food"
+            }
+          ]
         },
         {
           "id": 109,
-          "name": "Defect rates reduction"
+          "name": "Defect rates reduction",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 119,
+              "name": "Stable high quality"
+            }
+          ]
         },
         {
           "id": 108,
-          "name": "Cross-pizzeria planning algorithms in Dodo IS"
+          "name": "Cross-pizzeria planning algorithms in Dodo IS",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 107,
+              "name": "Cross-pizzeria food preparation planning"
+            }
+          ]
         },
         {
           "id": 120,
-          "name": "Subscription management via app"
+          "name": "Subscription management via app",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 110,
+              "name": "Easy contract development and management"
+            }
+          ]
         },
         {
           "id": 121,
-          "name": "Subscription management via website"
+          "name": "Subscription management via website",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 110,
+              "name": "Easy contract development and management"
+            }
+          ]
         },
         {
           "id": 105,
-          "name": "Contracting support in CRM"
+          "name": "Contracting support in CRM",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 110,
+              "name": "Easy contract development and management"
+            }
+          ]
         },
         {
           "id": 116,
-          "name": "Price analytics and monitoring"
+          "name": "Price analytics and monitoring",
+          "relations": [
+            {
+              "rel_type": "InfluenceRelationship",
+              "id": 111,
+              "name": "Effective discount policy for lunch subscriptions"
+            }
+          ]
         }
       ]
     }

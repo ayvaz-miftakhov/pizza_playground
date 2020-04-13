@@ -5,7 +5,9 @@ def restructure_relations(graph):
     for rel_node in graph.nodes.match("relationships"):
         open_node = graph.relationships.match((None, rel_node), None)
         close_node = graph.relationships.match((rel_node, None), None)
-        graph.create(Relationship(open_node.first().nodes[0], rel_node["class"], close_node.first().nodes[1]))
+        new_rel = Relationship(open_node.first().nodes[0], rel_node["class"], close_node.first().nodes[1])
+        new_rel["name"] = rel_node["class"]
+        graph.create(new_rel)
         graph.delete(rel_node)
 
 
